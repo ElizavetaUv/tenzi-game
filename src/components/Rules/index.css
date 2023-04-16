@@ -1,0 +1,12 @@
+.title {
+  font-size: 4.5vw;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.rules {
+  max-width: 80%;
+  font-size: 1.75vw;
+  text-align: center;
+  margin: 0 auto;
+}

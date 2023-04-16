@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --yellow: #fcf8d5;
+  --bright-orange: #f05c09;
+  --bright-yellow: #f8be4e;
+  --white: #fff;
+  --orange: #f1ab89;
+  --dark: #2c3924;
+}
+
+body {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  background-color: var(--orange);
+  color: var(--dark);
+  padding-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  height: 75vh;
+  width: 70vw;
+  border-radius: 3vh;
+}
+
+.diceContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.rollButton {
+  height: 10vw;
+  max-height: 10vh;
+  width: 20vw;
+  background-color: var(--bright-orange);
+  border: none;
+  border-radius: 1vh;
+  font-size: 2.5vw;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.rollButton:focus {
+  outline: none;
+}
+
+.rollButton:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
