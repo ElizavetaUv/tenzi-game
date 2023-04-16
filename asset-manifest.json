@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tenzi-game/static/css/main.01a8fd85.css",
+    "main.js": "/tenzi-game/static/js/main.46aa86ff.js",
+    "index.html": "/tenzi-game/index.html",
+    "main.01a8fd85.css.map": "/tenzi-game/static/css/main.01a8fd85.css.map",
+    "main.46aa86ff.js.map": "/tenzi-game/static/js/main.46aa86ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01a8fd85.css",
+    "static/js/main.46aa86ff.js"
+  ]
+}
